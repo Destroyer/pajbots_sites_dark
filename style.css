@@ -1,4 +1,4 @@
-@-moz-document domain("pajlada.se"), domain("forsen.tv") {
+@-moz-document domain("pajlada.se"), domain("forsen.tv"), domain("pajbot.com") {
 body {
     background: #101010;
     color: #909090;
@@ -15,8 +15,10 @@ body {
 }
 .ui.action.input {
     background: #3E3E3E!important;
+    padding-left: 10px !important;
 }
-input {
+input,
+i.black.icon {
     color: #a0a0a0!important;
 }
 .ui.action.input:not([class*="left action"])>.button:last-child,
@@ -39,7 +41,8 @@ input {
     color: inherit;
 }
 .ui.table thead th,
-.ui.items>.item>.content>.description {
+.ui.items>.item>.content>.description,
+.ui.list>.item .description {
     color: #676767;
 }
 .ui.tabular.menu .active.item,
@@ -48,7 +51,8 @@ input {
     background: #2E2E2E;
     border: 1px solid #2E2E2E;
 }
-.ui.very.basic.table {
+.ui.very.basic.table,
+.ui.list>.item .header {
     color: #909090!important;
 }
 .ui.tabular.menu {
