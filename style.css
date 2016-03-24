@@ -18,7 +18,7 @@ body {
 }
 .ui.action.input {
     background: #3E3E3E!important;
-    padding-left: 10px !important;
+    padding-left: 10px!important;
 }
 input,
 i.black.icon {
@@ -38,11 +38,11 @@ i.black.icon {
     color: #909090!important;
 }
 .ui.twitch.button {
-    color: #fff !important;
+    color: #fff!important;
 }
 .ui.table {
-    color: #7A7A7A;
-    border: 1px solid #444444
+    color: #7a7a7a;
+    border: 1px solid #444;
 }
 .ui.table thead th {
     background: #181818;
@@ -60,7 +60,7 @@ i.black.icon {
 }
 .ui.selectable.table tbody tr:hover,
 .ui.table tbody tr td.selectable:hover {
-    color: rgba(255, 255, 255, .95)!important
+    color: rgba(255, 255, 255, .95)!important;
 }
 .ui.items>.item .meta {
     color: inherit;
@@ -68,7 +68,7 @@ i.black.icon {
 .ui.table thead th,
 .ui.items>.item>.content>.description,
 .ui.list>.item .description {
-    color: #777777
+    color: #777;
 }
 .ui.tabular.menu .active.item,
 .ui.segment,
